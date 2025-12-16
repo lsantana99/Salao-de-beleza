@@ -1,0 +1,43 @@
+@media (max-width:480px) {
+
+    header{
+        width: 100%;
+    }
+
+    .container-header{
+        justify-content: left;
+        gap: 37px;
+    }
+
+    .text-main{
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: left;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .img-main img{
+        height: 300px;
+    }
+
+    .container-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .call{
+        justify-content: center;
+    }
+
+    .call button{
+        width: 50%;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0 15px;
+    }
+}
