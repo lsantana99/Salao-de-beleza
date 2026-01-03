@@ -84,8 +84,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 45px;
-    margin-left: 80px;
-    margin-top: 50px;
+    padding-left: 2rem;
 }
 
 .text-main h1{
